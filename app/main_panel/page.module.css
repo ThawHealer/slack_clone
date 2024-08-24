@@ -1,0 +1,30 @@
+.main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.left_panel {
+    flex: 1;
+    box-sizing: border-box;
+    padding: 10px;
+    border-right: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.right_panel {
+    flex: 3;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.page_main {
+    height: 100%;
+}

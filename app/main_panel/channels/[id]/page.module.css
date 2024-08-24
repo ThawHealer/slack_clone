@@ -1,0 +1,19 @@
+.channelName {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.message_list {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.message_input {
+    width: 100%;
+}
